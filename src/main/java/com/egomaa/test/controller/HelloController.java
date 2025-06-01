@@ -20,6 +20,11 @@ public class HelloController {
         return ResponseEntity.ok("Hi");
     }
 
+    @GetMapping("/wrong")
+    public ResponseEntity<Integer> wrong() {
+        return ResponseEntity.ok("Hi");
+    }
+
 
 
 
