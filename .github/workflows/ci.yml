@@ -16,7 +16,7 @@ on:
 
 permissions:
   contents: write
-  dependency-graph: read
+  id-token: write
 
 jobs:
   build:
