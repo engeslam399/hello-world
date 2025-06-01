@@ -20,6 +20,11 @@ public class HelloController {
         return ResponseEntity.ok("Hi");
     }
 
+    @GetMapping("/welcome")
+    public ResponseEntity<String> welcome() {
+        return ResponseEntity.ok("Welcome");
+    }
+
 
 
 
