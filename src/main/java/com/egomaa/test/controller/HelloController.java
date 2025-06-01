@@ -26,7 +26,10 @@ public class HelloController {
     }
 
 
-
+    @GetMapping("/test")
+    public ResponseEntity<String> test() {
+        return ResponseEntity.ok("tested successfully");
+    }
 
 
 
